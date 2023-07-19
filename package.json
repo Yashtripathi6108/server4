@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Pranjal",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "@google-cloud/dialogflow": "^5.9.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dialogflow": "^1.2.0",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.4",
+    "nodemon": "^2.0.22",
+    "razorpay": "^2.9.0",
+    "shortid": "^2.2.16",
+    "uuid": "^9.0.0",
+    "uuidv4": "^6.2.13"
+  },
+  "description": ""
+}
